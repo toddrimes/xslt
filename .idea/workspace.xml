@@ -14,152 +14,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93fda1e6-a1ea-48c7-a966-5406059c9f8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1619977438138-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619977799296-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619977816238-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619977863518-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619977886292-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619978520147-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619978540494-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619978638146-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619978719897-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619979026223-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619979229402-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619979319467-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619979445014-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619979561948-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619979645806-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619980279668-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619981233011-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1619981327269-OUT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www.thespruce.com_best-chest-freezers-4150012" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www.thespruce.com_best-drill-presses-4153445" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www.thespruce.com_best-vacuums-at-walmart-4173210" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www.thespruce.com_samara-fruit-3269469" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619918422420-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619918461840-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619918461840.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1619977816238.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619918461840.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619918738003-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619918738003.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1619977863518.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619918738003.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919493413-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919493413.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1619977886292.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919493413.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919525121-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919525121.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919525121.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919551377-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919551377.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919551377.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919596573-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919596573.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919596573.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919650640-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919650640.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619919650640.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619920174438-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619920174438.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619920174438.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619922853570-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619922853570.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619922853570.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619922872948-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619922872948.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619922872948.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923250054-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923250054.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923250054.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923271240-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923271240.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923271240.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923465253-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923465253.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923465253.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923539098-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923539098.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923539098.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923748158-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923748158.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923748158.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923751578-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923751578.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923751578.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923843668-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923843668.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923843668.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923914007-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923914007.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923914007.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923937166-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923937166.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619923937166.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924177819-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924177819.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924177819.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924231967-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924231967.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924231967.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924327931-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924327931.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924327931.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924492416-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924492416.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924492416.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924565446-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924565446.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924565446.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924604956-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924604956.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619924604956.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925142881-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925142881.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925142881.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925227297-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925227297.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925227297.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925293107-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925293107.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619925293107.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926709170-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926709170.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926709170.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926727885-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926727885.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926727885.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926922402-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926922402.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619926922402.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927157959-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927157959.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927157959.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927223952-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927223952.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927223952.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927255975-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927255975.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927255975.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927885916-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927885916.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619927885916.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619928302198-OUT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1619977816238-OUT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619928302198.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619928302198.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/1619977886292.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930097090-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930097090.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930097090.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930120676-OUT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930120676.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930120676.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930225213-OUT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1619977863518-OUT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930225213.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619930225213.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/1619977816238.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619931079862-OUT.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619931079862-OUT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1619977886292-OUT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619931079862.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1619931079862.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/1619977863518.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977438138-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977799296-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977816238-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977816238-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977816238.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977816238.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977863518-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977863518-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977863518.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977863518.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977886292-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977886292-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977886292.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619977886292.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619978520147-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619978540494-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619978638146-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619978719897-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619979026223-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619979229402-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619979319467-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619979445014-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619979561948-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619979645806-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619980279668-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619981233011-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619981327269-OUT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anf.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/anf.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encToThumb.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/enclosureToMediaThumbnail.xsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.thespruce.com_best-chest-freezers-4150012" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.thespruce.com_best-drill-presses-4153445" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.thespruce.com_best-vacuums-at-walmart-4173210" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.thespruce.com_samara-fruit-3269469" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xsl.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/exampleXsl.xsl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +64,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="60c58410-19cd-403b-889b-fb3b6748e4f0" name="localhost" />
@@ -217,7 +108,7 @@
       <updated>1619833396344</updated>
       <workItem from="1619833397439" duration="1584000" />
       <workItem from="1619835358434" duration="8344000" />
-      <workItem from="1619895915472" duration="29409000" />
+      <workItem from="1619895915472" duration="37393000" />
     </task>
     <servers />
   </component>
@@ -251,42 +142,42 @@
       <screen x="0" y="25" width="1920" height="998" />
     </state>
     <state x="417" y="184" width="1071" height="796" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619976267003" />
-    <state width="470" height="466" key="DebuggerActiveHint" timestamp="1619981360710">
+    <state width="496" height="466" key="DebuggerActiveHint" timestamp="1619983986911">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="470" height="466" key="DebuggerActiveHint/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981360710" />
-    <state width="1863" height="330" key="GridCell.Tab.0.bottom" timestamp="1619981327399">
+    <state width="496" height="466" key="DebuggerActiveHint/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619983986911" />
+    <state width="1878" height="330" key="GridCell.Tab.0.bottom" timestamp="1619993580909">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.0.bottom/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327399" />
-    <state width="1863" height="330" key="GridCell.Tab.0.center" timestamp="1619981327398">
+    <state width="1878" height="330" key="GridCell.Tab.0.bottom/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580909" />
+    <state width="1878" height="330" key="GridCell.Tab.0.center" timestamp="1619993580904">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.0.center/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327398" />
-    <state width="1863" height="330" key="GridCell.Tab.0.left" timestamp="1619981327398">
+    <state width="1878" height="330" key="GridCell.Tab.0.center/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580904" />
+    <state width="1878" height="330" key="GridCell.Tab.0.left" timestamp="1619993580900">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.0.left/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327398" />
-    <state width="1863" height="330" key="GridCell.Tab.0.right" timestamp="1619981327399">
+    <state width="1878" height="330" key="GridCell.Tab.0.left/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580900" />
+    <state width="1878" height="330" key="GridCell.Tab.0.right" timestamp="1619993580906">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.0.right/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327399" />
-    <state width="1863" height="330" key="GridCell.Tab.1.bottom" timestamp="1619981327400">
+    <state width="1878" height="330" key="GridCell.Tab.0.right/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580906" />
+    <state width="1878" height="330" key="GridCell.Tab.1.bottom" timestamp="1619993580929">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.1.bottom/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327400" />
-    <state width="1863" height="330" key="GridCell.Tab.1.center" timestamp="1619981327400">
+    <state width="1878" height="330" key="GridCell.Tab.1.bottom/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580929" />
+    <state width="1878" height="330" key="GridCell.Tab.1.center" timestamp="1619993580915">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.1.center/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327400" />
-    <state width="1863" height="330" key="GridCell.Tab.1.left" timestamp="1619981327399">
+    <state width="1878" height="330" key="GridCell.Tab.1.center/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580915" />
+    <state width="1878" height="330" key="GridCell.Tab.1.left" timestamp="1619993580911">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.1.left/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327399" />
-    <state width="1863" height="330" key="GridCell.Tab.1.right" timestamp="1619981327400">
+    <state width="1878" height="330" key="GridCell.Tab.1.left/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580911" />
+    <state width="1878" height="330" key="GridCell.Tab.1.right" timestamp="1619993580917">
       <screen x="0" y="25" width="1920" height="998" />
     </state>
-    <state width="1863" height="330" key="GridCell.Tab.1.right/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619981327400" />
+    <state width="1878" height="330" key="GridCell.Tab.1.right/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619993580917" />
     <state x="781" y="452" key="NewPhpFileDialog" timestamp="1619833409342">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
@@ -303,21 +194,5 @@
       <screen x="0" y="25" width="1920" height="998" />
     </state>
     <state x="617" y="247" width="670" height="676" key="search.everywhere.popup/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619898647378" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>160</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>136</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -198,7 +198,7 @@
             </metadata>
             <subtitle>Get more at <a href="http://www.thespruce.com">The Spruce</a>.</subtitle>
             <title><xsl:value-of
-                    select="normalize-space(translate(description,'&#xA;',''))"
+                    select="normalize-space(translate(title,'&#xA;',''))"
                     disable-output-escaping="yes"/></title>
             <version>1.0</version>
         </item>

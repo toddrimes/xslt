@@ -3,6 +3,20 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+$fieldOrder = array(
+    "version",
+    "identifier",
+    "title",
+    "language",
+    "layout",
+    "subtitle",
+    "metadata",
+    "documentStyle",
+    "components",
+    "componentTextStyles",
+    "componentLayouts"
+);
+
 $opts = array(
     'http' => array(
         'user_agent' => 'PHP libxml agent',
@@ -49,45 +63,6 @@ function transform($xml,$xsl,$timeString) {
     }
 }
 
-
-/**
- * @param SimpleXMLElement $xml
- * @return array
- */
-/*function xmlToArray(SimpleXMLElement $xml)
-{
-    $parser = function (SimpleXMLElement $xml, array $collection = []) use (&$parser) {
-        $nodes = $xml->children();
-        $attributes = $xml->attributes();
-
-        if (0 !== count($attributes)) {
-            foreach ($attributes as $attrName => $attrValue) {
-                $collection['attributes'][$attrName] = strval($attrValue);
-            }
-        }
-
-        if (0 === $nodes->count()) {
-            $collection['value'] = strval($xml);
-            return $collection;
-        }
-
-        foreach ($nodes as $nodeName => $nodeValue) {
-            if (count($nodeValue->xpath('../' . $nodeName)) < 2) {
-                $collection[$nodeName] = $parser($nodeValue);
-                continue;
-            }
-
-            $collection[$nodeName][] = $parser($nodeValue);
-        }
-
-        return $collection;
-    };
-
-    return [
-        $xml->getName() => $parser($xml)
-    ];
-}*/
-
 $inputJSON = file_get_contents('php://input');
 $input = json_decode($inputJSON, TRUE); //convert JSON into array
 
@@ -132,25 +107,20 @@ function htmlIterator($str)
 {
     $offset = 0;
     $i = 0;
-    while ( preg_match_all('/<(p|h1|h2|h3|figure).?>(.+?)<\/(p|h1|h2|h3|figure)>/', $str, $m, PREG_OFFSET_CAPTURE, $offset)) {
-        $result = new stdClass();
-        $offset = $m[0][1] + strlen($m[0][0]);
-        $result->tag = $m[1][$i][0];
-        $result->content = $m[2][$i][0];
-        $i++;
-        yield $result;
-    }
+    preg_match_all('/<(p|h1|h2|h3|figure).?>(.+?)<\/(p|h1|h2|h3|figure)>/', $str, $m, PREG_OFFSET_CAPTURE, $offset);
+    return $m;
 }
 
 function splitStories($timeString) {
+    global $fieldOrder;
     $json = file_get_contents($timeString. "-OUT.json", FILE_USE_INCLUDE_PATH);
     $objectFeed = json_decode($json);
     foreach ($objectFeed->channel->item as &$story) {
         $cleanStoryId = stripslashes($story->identifier);
-        preg_match("/\/(.+)$/",$cleanStoryId,$matches);
-        $guid=$matches[1];
-        $guid = ltrim($guid, '/');
-        $guid = str_replace('/','_',$guid);
+        // preg_match("/\/(.+)$/",$cleanStoryId,$matches);
+        $guid = substr($cleanStoryId, strrpos($cleanStoryId, '/') + 1);
+        // $guid = ltrim($guid, '/');
+        // $guid = str_replace('/','_',$guid);
         $components = array();
         foreach ($story->components->element as $component) {
             $name = "@attributes";
@@ -158,29 +128,37 @@ function splitStories($timeString) {
                 array_push($components, $component);
             } else {
                 $html = $component->html;
-                foreach( htmlIterator($html) as $element) {
-                    $newComponent = stdClass();
-                    switch($element->tag) {
+                $htmlMap = htmlIterator($html);
+                $len = sizeof($htmlMap[1]);
+                for($i=0;$i<$len;$i++) {
+                    $newComponent = new stdClass();
+                    switch($htmlMap[1][$i][0]) {
                         case 'h1':
                             $newComponent->role="heading1";
-                            $newComponent->text=$element->content;
+                            $newComponent->text=str_replace('\u00a0', " ",$htmlMap[2][$i][0]);
+                            $newComponent->format="html";
                             break;
                         case 'h2':
                             $newComponent->role="heading2";
-                            $newComponent->text=$element->content;
+                            $newComponent->text=str_replace('\u00a0', " ",$htmlMap[2][$i][0]);
+                            $newComponent->format="html";
                             break;
                         case 'h3':
                             $newComponent->role="heading3";
-                            $newComponent->text=$element->content;
+                            $newComponent->text=str_replace('\u00a0', " ",$htmlMap[2][$i][0]);
+                            $newComponent->format="html";
                             break;
                         case 'figure':
                             $newComponent->role="figure";
-                            preg_match_all('/\b(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)[-A-Z0-9+&@#\/%=~_|$?!:,.]*[A-Z0-9+&@#\/%=~_|$]/i', $element[1], $result, PREG_PATTERN_ORDER);
-                            $newComponent->URL=$result->content;
+                            preg_match_all('/\b(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)[-A-Z0-9+&@#\/%=~_|$?!:,.]*[A-Z0-9+&@#\/%=~_|$]/i', $htmlMap[2][$i][0], $result, PREG_PATTERN_ORDER);
+                            $newComponent->URL=$result[0][0];
                             break;
                         default:
                             $newComponent->role="body";
-                            $newComponent->text=$element->content;
+                            $newComponent->text=str_replace('\u00a0', " ",$htmlMap[2][$i][0]);
+                            $newComponent->layout="bodyLayout";
+                            $newComponent->textStyle="bodyStyle";
+                            $newComponent->format="html";
                             break;
                     }
                     array_push($components, $newComponent);
@@ -188,7 +166,20 @@ function splitStories($timeString) {
             }
         }
         $story->components = $components;
-        file_put_contents($guid,json_encode($story));
+        $storyArray = (array) $story;
+        $orderedStory = array();
+        foreach($fieldOrder as $currentPiece) {
+            $orderedStory[$currentPiece] = $storyArray[$currentPiece];
+        }
+        $orderedStory["version"] = "REPLACE_THIS_VERSION";
+        if (!mkdir($guid, 0777, true)) {
+            //die('Failed to create folders...');
+        }
+        $lastChance = json_encode($orderedStory, JSON_UNESCAPED_SLASHES|JSON_NUMERIC_CHECK);
+        $lastChance = str_replace('REPLACE_THIS_VERSION', "1.0",$lastChance);
+        $lastChance = str_replace('&nbsp;', " ",$lastChance);
+        $lastChance = preg_replace('/\xc2\xa0/', '', $lastChance);
+        file_put_contents( "$guid/article.json",$lastChance);
     }
 }
 
@@ -198,6 +189,8 @@ function cleanup($timeString) {
     unlink($timeString . "-OUT.xml");
 }
 
+
+// ACTION
 $xmlFile = setXmlFile();
 $xslFile = setXslFile();
 transformLocal($xmlFile,$xslFile,$milliseconds);
