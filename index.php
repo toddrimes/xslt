@@ -35,10 +35,57 @@ function transform($xml,$xsl,$timeString) {
     try{
         $output = $xslt->transformToXml($xml);
         file_put_contents($timeString. "-OUT.xml",$output);
-        echo($output);
+        $output=preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $output);
+
+        $json = json_encode(simplexml_load_string($output));
+
+        // $newArr = json_decode($xml, true);
+        echo($json);
+        file_put_contents($timeString. "-OUT.json",$json);
+        //print_r($newArr);
+
     } catch(Exception $e){
         echo $e;
     }
+}
+
+
+/**
+ * @param SimpleXMLElement $xml
+ * @return array
+ */
+function xmlToArray(SimpleXMLElement $xml)
+{
+    $parser = function (SimpleXMLElement $xml, array $collection = []) use (&$parser) {
+        $nodes = $xml->children();
+        $attributes = $xml->attributes();
+
+        if (0 !== count($attributes)) {
+            foreach ($attributes as $attrName => $attrValue) {
+                $collection['attributes'][$attrName] = strval($attrValue);
+            }
+        }
+
+        if (0 === $nodes->count()) {
+            $collection['value'] = strval($xml);
+            return $collection;
+        }
+
+        foreach ($nodes as $nodeName => $nodeValue) {
+            if (count($nodeValue->xpath('../' . $nodeName)) < 2) {
+                $collection[$nodeName] = $parser($nodeValue);
+                continue;
+            }
+
+            $collection[$nodeName][] = $parser($nodeValue);
+        }
+
+        return $collection;
+    };
+
+    return [
+        $xml->getName() => $parser($xml)
+    ];
 }
 
 $inputJSON = file_get_contents('php://input');

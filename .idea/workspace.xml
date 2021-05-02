@@ -1,7 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="93fda1e6-a1ea-48c7-a966-5406059c9f8d" name="Default Changelist" comment="" />
+    <list default="true" id="93fda1e6-a1ea-48c7-a966-5406059c9f8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619918422420-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619918461840-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619918461840.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619918461840.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619918738003-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619918738003.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619918738003.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919493413-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919493413.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919493413.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919525121-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919525121.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919525121.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919551377-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919551377.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919551377.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919596573-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919596573.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919596573.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919650640-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919650640.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619919650640.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619920174438-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619920174438.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619920174438.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619922853570-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619922853570.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619922853570.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619922872948-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619922872948.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619922872948.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923250054-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923250054.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923250054.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923271240-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923271240.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923271240.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923465253-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923465253.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923465253.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923539098-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923539098.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923539098.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923748158-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923748158.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923748158.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923751578-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923751578.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923751578.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923843668-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923843668.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923843668.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923914007-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923914007.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923914007.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923937166-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923937166.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619923937166.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924177819-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924177819.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924177819.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924231967-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924231967.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924231967.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924327931-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924327931.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924327931.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924492416-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924492416.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924492416.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924565446-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924565446.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924565446.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924604956-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924604956.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619924604956.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925142881-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925142881.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925142881.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925227297-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925227297.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925227297.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925293107-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925293107.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619925293107.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926709170-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926709170.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926709170.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926727885-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926727885.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926727885.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926922402-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926922402.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619926922402.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927157959-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927157959.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927157959.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927223952-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927223952.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927223952.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927255975-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927255975.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927255975.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927885916-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927885916.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619927885916.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619928302198-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619928302198.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619928302198.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930097090-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930097090.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930097090.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930120676-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930120676.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930120676.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930225213-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930225213.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619930225213.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619931079862-OUT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619931079862-OUT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619931079862.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1619931079862.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anf.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spruce.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855757652-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855757652.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855757652.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855801726-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855801726.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855801726.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855838091-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855838091.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855838091.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855856386-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855856386.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855856386.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855981522-OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855981522.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1619855981522.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +166,26 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rukWqW0o1YfOO4kuNsXYWIfcAE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -35,17 +202,40 @@
       <option name="presentableId" value="Default" />
       <updated>1619833396344</updated>
       <workItem from="1619833397439" duration="1584000" />
-      <workItem from="1619835358434" duration="8176000" />
+      <workItem from="1619835358434" duration="8344000" />
+      <workItem from="1619895915472" duration="17715000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="781" y="452" key="NewPhpFileDialog" timestamp="1619833409342">
       <screen x="0" y="25" width="1920" height="1000" />
     </state>
     <state x="781" y="452" key="NewPhpFileDialog/1920.0.1440.900/0.25.1920.1000@0.25.1920.1000" timestamp="1619833409342" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1619908376785">
+      <screen x="0" y="25" width="1920" height="998" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619908376785" />
+    <state x="617" y="247" width="670" height="676" key="search.everywhere.popup" timestamp="1619898647378">
+      <screen x="0" y="25" width="1920" height="998" />
+    </state>
+    <state x="617" y="247" width="670" height="676" key="search.everywhere.popup/1920.0.1440.900/0.25.1920.998@0.25.1920.998" timestamp="1619898647378" />
   </component>
 </project>
