@@ -192,5 +192,5 @@ function cleanup($timeString) {
 $xmlFile = setXmlFile();
 $xslFile = setXslFile();
 transformLocal($xmlFile,$xslFile,$milliseconds);
-cleanup($milliseconds);
 splitStories($milliseconds);
+cleanup($milliseconds);
