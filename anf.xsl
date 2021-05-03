@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="2.0"
+<xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:media="http://search.yahoo.com/mrss/"
                 xmlns:content="http://purl.org/rss/1.0/modules/content/"
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
                 xmlns:saxon="http://saxon.sf.net/"
-                xmlns:xhtml="http://www.w3.org/1999/xhtml"
-                exclude-result-prefixes="content saxon xhtml">
+                xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+<!--     exclude-result-prefixes="content saxon xhtml" -->
     <xsl:output omit-xml-declaration="yes" indent="yes"
                 cdata-section-elements="description content:encoded content encoded"/>
     <xsl:param name="quote" select="'&quot;'"/>
