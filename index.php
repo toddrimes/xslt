@@ -184,6 +184,7 @@ function cleanup($timeString) {
     unlink($timeString . ".xml");
     unlink($timeString . ".xsl");
     unlink($timeString . "-OUT.xml");
+    unlink($timeString . "-OUT.json");
 }
 
 
