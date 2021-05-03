@@ -117,10 +117,7 @@ function splitStories($timeString) {
     $objectFeed = json_decode($json);
     foreach ($objectFeed->channel->item as &$story) {
         $cleanStoryId = stripslashes($story->identifier);
-        // preg_match("/\/(.+)$/",$cleanStoryId,$matches);
         $guid = substr($cleanStoryId, strrpos($cleanStoryId, '/') + 1);
-        // $guid = ltrim($guid, '/');
-        // $guid = str_replace('/','_',$guid);
         $components = array();
         foreach ($story->components->element as $component) {
             $name = "@attributes";
