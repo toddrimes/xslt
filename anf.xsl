@@ -170,13 +170,6 @@
                     <text><xsl:value-of select="dc:creator" disable-output-escaping="yes"/></text>
                     <textStyle>authorStyle</textStyle>
                 </element>
-                <!-- element>
-                    <layout>bodyLayout</layout>
-                    <role>body</role>
-                    <xsl:apply-templates select="content:encoded"/>
-                    <format>html</format>
-                    <textStyle>bodyStyle</textStyle>
-                </element -->
                 <xsl:apply-templates select="content:encoded"/>
             </components>
             <documentStyle>
@@ -204,15 +197,10 @@
         </item>
     </xsl:template>
 
-    <!-- xsl:template match="content:encoded">
-        <text>"<xsl:call-template name="doublequotes"/>"</text>
-    </xsl:template -->
-
     <xsl:template match="description">
         <text>"<xsl:call-template name="doublequotes"/>"</text>
     </xsl:template>
 
-    <!-- all lines of text are parsed here and tagged with either <p> or  <div> and blank lines discarded-->
     <xsl:template match="content:encoded">
         <element role="body">
             <html>
@@ -221,60 +209,5 @@
             </html>
         </element>
     </xsl:template>
-
-    <xsl:template match="p">
-        <element>
-            <layout>bodyLayout</layout>
-            <role>body</role>
-            <!-- text><xsl:apply-templates select="."/></text -->
-            <text><xsl:call-template name="doublequotes"/></text>
-            <format>html</format>
-            <textStyle>bodyStyle</textStyle>
-        </element>
-    </xsl:template>
-
-    <xsl:template match="h1">
-        <element>
-            <layout>heading1Layout</layout>
-            <role>heading1</role>
-            <!-- text><xsl:apply-templates select="."/></text -->
-            <text><xsl:call-template name="doublequotes"/></text>
-            <format>html</format>
-            <textStyle>heading1Style</textStyle>
-        </element>
-    </xsl:template>
-
-    <xsl:template match="h2">
-        <element>
-            <layout>heading2Layout</layout>
-            <role>heading2</role>
-            <!-- text><xsl:apply-templates select="."/></text -->
-            <text><xsl:call-template name="doublequotes"/></text>
-            <format>html</format>
-            <textStyle>heading2Style</textStyle>
-        </element>
-    </xsl:template>
-
-    <xsl:template match="h3">
-        <element>
-            <layout>heading3Layout</layout>
-            <role>heading3</role>
-            <!-- text><xsl:apply-templates select="."/></text -->
-            <text><xsl:call-template name="doublequotes"/></text>
-            <format>html</format>
-            <textStyle>heading3Style</textStyle>
-        </element>
-    </xsl:template>
-
-    <xsl:template match="figure">
-        <!-- figure >> img, figure, figcaption -->
-        <element>
-            <layout>figureLayout</layout>
-            <role>figure</role>
-            <URL><xsl:value-of select="./img/@src"/></URL>
-            <style>figureStyle</style>
-            <caption><xsl:value-of select="./figcaption/span"/></caption>
-        </element>
-    </xsl:template>
-
+    
 </xsl:stylesheet>

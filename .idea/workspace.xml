@@ -14,6 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93fda1e6-a1ea-48c7-a966-5406059c9f8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1620047413851-OUT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best-chest-freezers-4150012/article.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best-drill-presses-4153445/article.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best-vacuums-at-walmart-4173210/article.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samara-fruit-3269469/article.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anf.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/anf.xsl" afterDir="false" />
     </list>
@@ -73,7 +78,7 @@
       <workItem from="1619833397439" duration="1584000" />
       <workItem from="1619835358434" duration="8344000" />
       <workItem from="1619895915472" duration="37393000" />
-      <workItem from="1620004430906" duration="677000" />
+      <workItem from="1620004430906" duration="1012000" />
     </task>
     <servers />
   </component>
